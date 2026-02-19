@@ -1,0 +1,26 @@
+# Telegram Bot
+python-telegram-bot[ext]>=21.0
+
+# HTTP Client (shared with zoho_client)
+httpx>=0.27.0
+
+# Database
+asyncpg>=0.29.0
+
+# Config & Validation
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# Retry Logic (shared with zoho_client)
+tenacity>=8.2.0
+
+# PDF Export
+fpdf2>=2.7.0
+
+# Testing
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+pytest-mock>=3.12.0
